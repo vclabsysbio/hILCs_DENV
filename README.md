@@ -1,6 +1,7 @@
 ## Description
 
-This repository contains several scripts necessary to perform RNA-sequencing analysis in this publication  *"Innate Lymphoid Cells Activation and Transcriptional Changes in Human Dengue Infection"*
+This repository contains several scripts necessary to perform RNA-sequencing analysis in this publication  *"Innate Lymphoid Cells Activation and Transcriptional Changes in Human Dengue Infection"*.
+
 Primary purpose of this repository is to provide additional details for method of analyses performed in the publication.
 
 ## Data
@@ -18,9 +19,9 @@ Processed data of all samples were deposited on GEO (see above)
 
 ## R scripts
 R scripts for data analysis in Fig 3 and 4 in the publication
-Part 02 demonstrate data visualization in Figure 3
-Part 03 perform DESeq2 analysis and data visualization in Figure 4A,B
-Part 04 focus on GO term enrichment analysis with gProfileR and data disualization in Figure 4C-F
+* Part 02 demonstrate data visualization in Figure 3
+* Part 03 perform DESeq2 analysis and data visualization in Figure 4A,B
+* Part 04 focus on GO term enrichment analysis with gProfileR and data disualization in Figure 4C-F
 
 ## Packages used in this analysis
 
