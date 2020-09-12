@@ -7,7 +7,7 @@ This repository contains several scripts necessary to perform RNA-sequencing ana
 Primary purpose of this repository is to provide additional details for method of analyses performed in the publication.
 
 ## Data
-Data used in this publication was deposited under ancession number GSEXXXXXXX
+Data used in this publication was deposited under ancession number GSE155672
 fastq files were deposited on SRA.
 Processed files (TPM, Read counts) of all samples are also available
 
