@@ -7,11 +7,11 @@
 # README
 # ------------------------------------------
 # This script show command and parameters setting for raw data processing
-# We start with fastq files from illumina sequencer (deposited under ancession GSEXXXXXXX)
+# We start with fastq files from illumina sequencer (deposited under ancession GSE155672)
 # First we trim Nextera adapter using trimmomatic
 # Read mapping was done using HISAT2
 # TPM was obtained by StingTie. Read counts were obtain by HTseq-count
-# Processed data of all samples were deposited on GSEXXXXXXX
+# Processed data of all samples were deposited on GSE155672
 
 # Nextera adapter reads were removed using Trimmomatic v0.36
 java -jar <trimmomatic-0.36.jar> PE -threads 8 -phred33 <R1.fastq> <R2.fastq> <R1_U_output.fastq> <R2_U_output.fastq> <R1_P_output.fastq> <R2_P_output.fastq> ILLUMINACLIP:<Trimmomatic-0.36/adapters/NexteraPE-PE.fa>:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
