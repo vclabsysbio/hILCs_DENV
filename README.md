@@ -3,6 +3,7 @@
 ## Description
 
 This repository contains several scripts necessary to perform RNA-sequencing analysis in this publication  *"Innate Lymphoid Cells Activation and Transcriptional Changes in Human Dengue Infection"*.
+https://doi.org/10.3389/fimmu.2021.599805
 
 Primary purpose of this repository is to provide additional details for method of analyses performed in the publication.
 
